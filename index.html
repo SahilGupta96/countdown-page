@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming soon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <video src="images/vi.mp4" autoplay loop playsinline muted></video>
+        <div class="content">
+            <img src="images/logosg-removebg-preview.png" class="logo"> 
+            
+            <p>Site Is Under Maintenance</p>
+            <h1>We're <span id="span"> Launching </span>  <span id="element"></span> </h1> 
+            <div class="launch_time">
+                <div>
+                    <p id="days">00</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p id="hours">00</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p id="minutes">00</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p id="seconds">00</p>
+                    <span>Seconds</span>
+                </div>
+                
+            </div>
+            <button type="button">Learn More <img src="images/triangle.png" alt=""></button>
+        </div>
+        <img src="images/rocket.png"  class="rocket">
+        
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ["Soon"],
+            typeSpeed: 100,
+        });
+ </script>
+    <script src="script.js"></script>
+</body>
+</html>
